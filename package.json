@@ -9,6 +9,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "eslint": "^5.16.0",
+    "typescript": "^3.5.2",
     "@typescript-eslint/eslint-plugin": "^1.10.2",
     "@typescript-eslint/parser": "^1.10.2",
     "eslint-config-airbnb": "^17.1.0",
@@ -18,10 +20,6 @@
     "eslint-plugin-react-hooks": "^1.6.0"
   },
   "peerDependencies": {
-    "eslint": "^5.16.0",
-    "typescript": "^3.5.2"
-  },
-  "devDependencies": {
     "eslint": "^5.16.0",
     "typescript": "^3.5.2"
   }
