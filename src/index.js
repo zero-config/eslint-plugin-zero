@@ -1,12 +1,13 @@
 const baseConfig = require('./base');
 const reactConfig = require('./react');
 const tsConfig = require('./ts');
-const { mergeBase } = require('./utils');
+const { mergeConfig, mergeConfigs } = require('./utils');
 
 module.exports = {
   configs: {
     base: baseConfig,
-    react: mergeBase(reactConfig),
-    ts: mergeBase(tsConfig),
+    react: mergeConfig(baseConfig, reactConfig),
+    ts: mergeConfig(baseConfig, tsConfig),
+    'ts-react': mergeConfigs(baseConfig, tsConfig, reactConfig),
   },
 };
