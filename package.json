@@ -1,13 +1,20 @@
 {
-  "name": "eslint-plugin-victor",
+  "name": "eslint-plugin-zero",
   "version": "0.0.7",
   "description": "",
   "main": "src/index.js",
   "scripts": {
     "test": "jest"
   },
-  "author": "",
-  "license": "ISC",
+  "author": {
+    "name": "Victor",
+    "url": "https://github.com/beizhedenglong"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zero-config/eslint-plugin-zero"
+  },
+  "license": "MIT",
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^1.10.2",
     "@typescript-eslint/parser": "^1.10.2",
