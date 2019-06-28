@@ -8,8 +8,8 @@ module.exports = {
   plugins: [],
   rules: {
     semi: ['error', 'never'],
-    'import/prefer-default-export': false,
-    'import/no-extraneous-dependencies': false,
+    'import/prefer-default-export': 'off',
+    'import/no-extraneous-dependencies': 'off',
   },
   settings: {
     'import/resolver': {
